@@ -1,6 +1,8 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: #00000012;
+    background-image: linear-gradient( to bottom, #00000012, rgba(4, 171, 82, 0.46));
 }
 
 .Img_Home {
@@ -18,11 +20,118 @@ body {
 }
 
 .Nav li {
+    padding: 10px;
+    font-size: 25px;
     padding-top: 1vh;
     margin-right: 16vh;
+    cursor: pointer;
+    transition: 0.20s;
+    border-radius: 16px;
 }
 
-.Content {
-    margin: 80px;
-    padding: 20px;
+.Nav li :hover{
+    transition: 0.20s;
+    border: solid rgba(4, 171, 82, 0.826) 1px;
+    background-color: rgba(4, 171, 82, 0.826);
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.57);
+}
+
+.Info {
+
+    width: 100%;
+    height: 90vh;
+    background-image:url(/home/danielr/Programação/React_Js/src/Assets/fundo1.jpg);
+    background-size: cover;
+    border-radius: 0 0 70px 70px;
+    box-shadow: 0px 5px 30px rgb(255, 255, 255);
+}
+
+.Info img{
+    width: 50%;
+    height: auto;
+}
+
+.InfoText {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(254, 254, 254);
+    font-size: 30px;
+    font-family: Century Gothic;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.InfoText p {
+    background-color: rgba(4, 171, 82, 0.826);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Century Gothic;
+}
+
+@media (max-width: 1812px) {
+
+    .Info {
+        height: 70vh;
+    }
+
+
+    .Info img{
+        width: 40%;
+        height: auto;
+    }
+
+    .InfoText {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Nav {
+        margin-top: 0px;
+        list-style: none;
+        display: table-row;
+        text-align: center;
+        font-family: Century Gothic;
+    }
+
+    .Nav li {
+        margin-right:5vh;
+        cursor: pointer;
+        font-size: 19px;
+        padding-bottom: 6px;
+    }
+
+    .NavZone {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 724px) {
+
+
+
+    .InfoText {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .Info img{
+        width: 100%;
+        height: auto;
+    }
+
 }

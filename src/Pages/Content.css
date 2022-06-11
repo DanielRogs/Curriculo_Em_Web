@@ -1,0 +1,56 @@
+.All_Content {
+    margin: 150px;
+    font-size: 30px;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.All_Content h1 {
+    font-family: Century Gothic;
+}
+
+.Perfil_Content, .Formacao_Content, .Profissional_Content, .Experiencia_Content, .Certificacoes_Content {
+    margin-bottom: 100px;
+}
+
+.Experiencia_Content ul{
+    margin-bottom: 50px;
+}
+
+.Certificacoes_Content p {
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.Outros_Content img {
+    width: 350px;
+    height: auto;
+    margin: 7%;
+    cursor: pointer;
+}
+
+.Fim_page a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: Century Gothic;
+}
+
+.Fim_page h5 {
+    transition: 0.20s;
+}
+
+.Fim_page h5 :hover{
+    transition: 0.20s;
+    background-color: rgba(4, 171, 82, 0.826);
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+@media (max-width: 1091px) {
+    .All_Content {
+        margin: 40px;
+        font-size: 15px;
+    }
+}

@@ -42,7 +42,7 @@ body {
 
     width: 100%;
     height: 90vh;
-    background-image:url(/home/danielr/Programação/React_Js/src/Assets/fundo1.jpg);
+    background-image:url(https://github.com/DanielRogs/React_JS_Corriculum/raw/master/src/Assets/fundo1.jpg);
     background-size: cover;
     border-radius: 0 0 70px 70px;
     box-shadow: 0px 5px 30px rgb(255, 255, 255);
